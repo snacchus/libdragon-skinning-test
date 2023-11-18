@@ -1,0 +1,17 @@
+Slot                       Cnt/Frame    Avg/Frame  Rel/Frame
+------------------------------------------------------------
+builtin commands                 125        133us      0.17%
+rsp_rdpq                         247        456us      0.59%
+rsp_gl                          1037      14351us     18.61%
+rsp_gl_pipeline                 5450      24053us     31.20%
+idle (CPU)                        60      20582us     26.70%
+idle (RDP)                       159        614us      0.80%
+idle (FULL_SYNC)                   2          0us      0.00%
+idle (RDPQCmd_SyncFull)            2          0us      0.00%
+overlay switching                306       7355us      9.54%
+------------------------------------------------------------
+Profiled frames:              60
+Frames per second:          13.0
+Average frame time:      77099us
+RDP busy time:           18969us (24.60%)
+Unrecorded time:          9551us (12.39%)
